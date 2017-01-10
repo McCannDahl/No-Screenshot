@@ -11,18 +11,18 @@ http://dominoc925.blogspot.com/2015/09/how-to-create-and-use-android-archive.htm
 <br>
 add these permisions in your android manifest:
 <br>
-  &lt;uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+ &nbsp; &lt;uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <br>
-  &lt;uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+ &nbsp; &lt;uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 <br>
 <br>
 class "NoScreenshot" has two function calls:
 <br>
-  NoScreenshot object = new NoScreenshot();
+&nbsp;  NoScreenshot object = new NoScreenshot();
   <br>
-  object.start(final Activity app); // This will disallow screenshots
+&nbsp;  object.start(final Activity app); // This will disallow screenshots
   <br>
-  object.stop(); // This will allow screenshots
+&nbsp;  object.stop(); // This will allow screenshots
  <br>
  <br>
  Vuala! You are now in control of wheather or not your user takes a screenshot
