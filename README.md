@@ -1,4 +1,4 @@
-# No-Screenshot
+# No-Screenshot Security for Android
 Android library to prevent users from using the screenshot feature.
 
 ___________________________________________________________________________________
@@ -9,8 +9,8 @@ follow these instructions for importing the .aar:
 http://dominoc925.blogspot.com/2015/09/how-to-create-and-use-android-archive.html 
 
 add these permisions in your android manifest:
-  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  \<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  /<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 class "NoScreenshot" has two function calls:
   NoScreenshot object = new NoScreenshot();
